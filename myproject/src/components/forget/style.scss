@@ -1,0 +1,76 @@
+@import "~@/lib/reset.scss";
+.home{
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0 auto;
+    .rtop{
+        position: relative;
+        margin: 12px 0 12px 20px;
+         
+        span{
+            display: block;
+            border-left: 1px solid #333;
+            border-top: 1px solid #333;
+            width: 0.12rem;
+            height: 0.12rem;
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 0.08rem;
+        }
+        p{  width: 100%;
+            text-align: center;
+            font-size: 0.18rem;
+            color: #2c2b2b;
+            margin-left: -14px;
+        }
+    }
+    .tlogin{
+            padding: 25px 9% 15px;
+            text-align: center;
+        input{         
+            width: 3rem;
+            color: #5f6162;
+            border: none;
+            height: 0.48rem;
+            line-height: 0.4rem;
+            margin-bottom: 14px;
+            background-color: #f2f2f2;
+            padding: 0 0 0 0.4rem;
+            border-radius: 0.4rem;
+            box-sizing: border-box;
+            background-repeat:no-repeat;
+            background-position:  0.15rem  center;
+            background-size: 0.2rem;
+        }
+        .lon_1{
+            position: relative;
+            span{
+                position: absolute;
+                bottom: 0.26rem;
+                right: 0.4rem;
+                display: block;
+                color: #ef4c55;
+                font-size: 0.15rem;
+            }
+            .mint-field-core{
+                width: 1.5rem;
+            }
+        }
+        .denglu{
+            display: inline-block;
+            background: #bdbdbe;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 0.15rem;
+            text-align: center;
+            width: 100%;
+            border: none;
+            line-height: 0.35rem;
+            margin-top: 0.35rem;
+            outline: none;
+            width: 1.4rem;
+            height: 0.35rem;
+            background: #ef4c55;
+        }      
+    }
+}

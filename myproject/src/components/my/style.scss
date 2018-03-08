@@ -1,0 +1,91 @@
+@import "~@/lib/reset.scss";
+.home{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    .Myheader{
+        width: 100%;
+        height: 1.71rem;
+        background-color: #e8323f;
+        margin-bottom: .2rem;
+        position: relative;
+        h2{color: #FFFFFF;
+            font-size: 0.17rem;
+            text-align: center;
+            width: 100%;
+            padding: 0.15rem;
+            img{position: absolute;
+                border: none;
+                width: 0.2rem;
+                height: 0.2rem;
+                left: 0.15rem;
+                top: 0.16rem;
+            }
+        }
+        .Myinfor{
+            overflow: hidden;
+            padding: .13rem .25rem .32rem;
+            .touxiang{
+                width: 0.55rem;
+                height: 0.55rem;
+                float: left;
+                margin-right: 0.2rem;
+                img{
+                    border: none;
+                    width: 0.6rem;
+                    height: 0.6rem;
+                }
+            }
+            .userout{
+                float: left;
+                width: 75%;
+                padding: 0.08rem 0;
+                .myphone{color: #f0f0f0; float: left;}
+                
+                .loginout{
+                    float: right;
+                    color: #FFFFFF;
+                    span{
+                        font-size: 0.14rem;
+                        line-height: 0.55rem;
+                        color: #f0f0f0;
+                    }
+                    img{
+                        border: none;
+                        width: 0.13rem;
+                        height: 0.13rem;
+                    }
+                }
+            }
+        }
+    }
+    .pay{
+        height: 0.56rem;
+        width: 100%;
+        background: #FFFFFF;
+        padding: 0.2rem 0.12rem;
+        border-bottom: 1px solid #CECECE;
+        img{border: none;
+            width: 0.15rem;
+            height: 0.15rem;}
+        .le{
+            float: left;
+            margin-right: 0.2rem;
+        }
+        .ri{
+            float: right;
+        }
+        span{
+        font-size: .15rem;
+        color: #3a3b3c;
+        line-height: 0.15rem;
+        }
+        
+ 
+    }
+    .kong{
+        width: 100%;
+        height: .1rem;
+        background-color: #f0f0f0;
+    }
+}

@@ -1,0 +1,66 @@
+@import "~@/lib/reset.scss";
+
+header{
+    width: 100%;
+    height: 0.48rem;
+    background: #ee3943;
+    position: fixed;
+    top: 0;
+    span{float: left;
+        position: absolute;
+        top: 0.1rem;
+        left: 0.15rem;
+        img{
+            width: 0.22rem;
+            height: 0.22rem;
+        }
+    }
+    .locationselect{
+        float: left;
+        position: relative;
+        left: 0.4rem;
+        top:0.02rem;
+        width:0.7rem ;
+        height: 0.3rem;
+        .cityname{
+            color: #FFFFFF;
+            display: block;
+        }
+        .square{
+            display: block;
+            position: absolute;
+            left:0.5rem;
+            top: 0.17rem;
+            border-width: 0.08rem;
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+        }
+    }
+    .topsearch{
+        float: left;
+        border: none;
+        margin-left: 0.6rem;
+        margin-top: 0.08rem;
+        background: #FFFFFF;
+        width: 2rem;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        border-radius: 5px;
+      img{
+        width: 0.14rem;
+        height: 0.14rem;
+        margin-right: 0.1rem;
+        margin-bottom: 0.03rem;
+        }
+    }
+    .userico{
+        display: block;      
+        width: 0.12rem;
+        height: 0.2rem;
+        left: 3.8rem;             
+        img{
+            width: 0.16rem;
+            height: 0.2rem;
+        }
+    }
+}

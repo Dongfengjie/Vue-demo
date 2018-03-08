@@ -1,0 +1,151 @@
+@import "~@/lib/reset.scss";
+html,body{overflow-y: auto!important; }
+.c-top{
+    width: 100%;
+    height: 0.48rem;
+    background: #ee3943;
+    position: fixed;
+    span{float: left;
+        position: absolute;
+        top: 0.1rem;
+        left: 0.15rem;
+        img{
+            width: 0.22rem;
+            height: 0.22rem;
+        }
+    }
+    .locationselect{
+        float: left;
+        position: relative;
+        left: 0.4rem;
+        top:0.02rem;
+        width:0.7rem ;
+        height: 0.3rem;
+        .cityname{
+            color: #FFFFFF;
+            display: block;
+        }
+        .square{
+            display: block;
+            position: absolute;
+            left:0.5rem;
+            top: 0.17rem;
+            border-width: 0.08rem;
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+        }
+    }
+    
+    .roommate{
+        color: #FFFFFF;
+        float: left;
+        font-size: 0.2rem;
+        margin-left: 0.8rem;
+        margin-top: 0.08rem;
+    }
+    
+    .userico{
+        display: block;      
+        width: 0.12rem;
+        height: 0.2rem;
+        left: 3.8rem;             
+        img{
+            width: 0.16rem;
+            height: 0.2rem;
+        }
+    }
+}
+
+.goodlist{
+    overflow: hidden;
+    padding-top: 0.48rem;
+    .good-item{
+        border-bottom: 1px solid #CECECE;
+        padding: 0.15rem;
+        overflow: hidden;
+        .gt-left{
+            float: left;
+            width: 1.6rem;
+            margin-right: 0.1rem;
+            img{
+                width: 1.6rem;
+                height: 1.4rem;
+            }
+            .pingfen{
+                font-size: 0.14rem;
+                color: #f66;
+                height: 0.1rem;
+                line-height: 0.18rem; 
+                float: right;
+                margin-top: 0.05rem;
+            }
+        }
+        .gt-right{
+            float: left;
+            width: 1.7rem;
+            font-size: 0.12rem;
+            color: #c4c4c4;
+            .hang{
+                width: 100%;
+                overflow: hidden;
+            }
+            li{
+               padding-bottom: 0.1rem;
+            }
+            .housename{
+                font-size: 0.16rem;
+                font-weight: 700;
+                color: #5a5c5d;
+                line-height: 0.22rem;
+                height: 0.24rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 1.2rem;
+                float: left;
+            }
+            .housemoney{
+                font-size: 0.14rem;
+                font-weight: 400;
+                color: #e8323f;
+                height: 0.27rem;
+                line-height: 0.27rem;
+                float: left;
+            }
+            
+            .houselocation{
+                line-height: 0.26rem;
+                font-size: 0.12rem;
+                color: #9b9b9b;
+            }
+            .houseserver{
+                overflow: hidden;
+                span{
+                    font-size: 0.12rem;
+                    height: 0.18rem;
+                    float: left;
+                    border-radius: 2px;
+                    margin-right: 0.1rem;
+                    margin-bottom: 0.05rem;
+                    color: #f7646e;
+                }
+            }
+            .style{
+                font-size: 0.14rem;
+                    height: 0.18rem;
+                    float: left;
+                    border-radius: 2px;
+                    margin-right: 0.05rem;
+                    margin-bottom: 0.05rem;
+                    color: #87bcda;
+                    background-color: #eff6fa;
+                    float: left;
+            }
+            .pata{
+                float: right;
+                font-size: 0.14rem;
+            }
+        }
+    }
+}
+
